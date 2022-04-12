@@ -4,7 +4,7 @@ from selenium import webdriver
 import time
 
 current_dir = os.path.abspath(os.path.dirname(__file__))    # получаем путь к директории текущего исполняемого файла
-file_path = os.path.join(current_dir, 'test/empty.txt')           # добавляем к этому пути имя файла
+file_path = os.path.join(current_dir, '../test/empty.txt')           # добавляем к этому пути имя файла
 
 
 try:
